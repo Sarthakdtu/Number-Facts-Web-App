@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Number Facts</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body id="body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card bg-primary text-white mt-5 p-4">
+            <h1>Number Facts</h1>
+            <br>
+            <p>Enter a number and get an interesting fact about that number.</p>
+            <input type="text" class="form-control form-control-lg" id="numberInput" placeholder="Enter any number...">
+            <div class="card-body" id="fact">
+              <h4 class="card-title">Number Fact</h4>
+              <p id="factText" class="cardText"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="main-footer">
+      <div class="">
+        <span>
+          This WebApp fetches <a href="http://numbersapi.com" clas="alert-link" target="blank">Numbers Api</a>
+          and returns the result.
+        <br>
+        Created By Sarthak Srivastava.
+        </span>
+      </div>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
